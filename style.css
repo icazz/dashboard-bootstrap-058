@@ -5,9 +5,10 @@ body {
 
 /* Grid untuk 5 card per baris */
 .sensor-grid {
+  margin-top: 40px;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  gap: 15px;
+  gap: 40px;
 }
 
 .sensor-card {
